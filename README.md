@@ -57,3 +57,7 @@ flutter build apk
 
 
 ## Screenshots
+![Screenshot_1723155883](https://github.com/user-attachments/assets/932f6d77-a523-40f0-a0d0-3b2b718bc969)
+
+![Screenshot_1723155889](https://github.com/user-attachments/assets/d9206cb2-dda3-4859-bd17-66d40e1ca096)
+
