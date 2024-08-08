@@ -1,19 +1,16 @@
-Sure! Here’s the `README.md` content:
-
-```markdown
 # Assignment for Mobile Engineer - Android
 
 ## Objective
 
-The goal of this assignment is to build two Android screens (`ListView` and `DetailsView`) using Flutter. The app will fetch data from an API and display it in a `ListView` widget, and it will also have a `DetailsView` screen. The app is designed to support a dedicated landscape layout for tablets.
+The goal of this assignment is to build two Android screens (`ListView` and `DetailsView`) using Flutter. The app will fetch data from an API and display it in a `ListView` widget, with a `DetailsView` screen for displaying detailed information on a selected item. The app is designed to support a dedicated landscape layout for tablets.
 
 ## Requirements
 
 - Fetch sample data from [https://api.restful-api.dev/objects](https://api.restful-api.dev/objects).
 - Display the fetched data in a `ListView`.
-- Implement a `DetailsView` screen that shows detailed information for a selected item.
+- Implement a `DetailsView` screen to show detailed information for a selected item.
 - Ensure the app has a dedicated landscape layout for tablets.
-- You have 2 days to complete this assignment.
+- Complete the assignment within 2 days.
 
 ## Features
 
@@ -27,49 +24,36 @@ The goal of this assignment is to build two Android screens (`ListView` and `Det
 ### Prerequisites
 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) (version 3.0 or above)
-- Android Studio or Visual Studio Code with Flutter and Dart plugins installed.
-- An Android emulator or physical device.
+- Android Studio or Visual Studio Code with Flutter and Dart plugins installed
+- An Android emulator or physical device
 
 ### Steps to Run
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
+1. Clone this repository to your local machine.
+2. Open the project in Android Studio or Visual Studio Code.
+3. Run the app on an emulator or physical device.
+4. View the `ListView` screen to see the fetched data.
 
-2. **Install dependencies**:
-   ```bash
-   flutter pub get
-   ```
-
-3. **Run the app**:
-   - **Using Android Studio/VS Code**: Open the project in your IDE and press `F5` or click the run button.
-   - **Using Terminal**:
-     ```bash
-     flutter run
-     ```
-
-4. **Build for Android**:
-   - **Debug Build**: 
-     ```bash
-     flutter build apk --debug
-     ```
-   - **Release Build**:
-     ```bash
-     flutter build apk --release
-     ```
-
-### Test on Tablet
-
-- To test the dedicated landscape layout for tablets, ensure you have a tablet emulator or a physical tablet device.
-- Rotate the device/emulator to landscape mode to see the optimized layout.
-
-## Libraries and Tools Used
-
-- **HTTP**: For making API requests to fetch data. [http](https://pub.dev/packages/http)
-- **Flutter**: Framework used to build the cross-platform application.
-- **Dart**: Language used for writing the Flutter application.
+## in  VsCode terminal  open the project folder and run the following commands  in terminal by pressing `ctrl + ~`  or `ctrl + shift + ~` in  android studio terminal
 
 
+```bash
+flutter pub get
+flutter run
+```
 
+##  build   for android  apk
+
+```bash
+flutter build apk
+```
+
+
+##  Test  in  dedicated landscape layout for tablets  you need to have tablet emulator or physical device  use  apk generated above to test in table device
+
+```bash
+flutter build apk
+```
+
+
+## Screenshots
